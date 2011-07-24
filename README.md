@@ -13,8 +13,10 @@ Building
 -------
 
 $ cd Verihmac-sign
+
 $ make 
-# make install 
+
+$ make install 
 
 Usage
 -------
@@ -22,5 +24,7 @@ Usage
 verihmac-sign [OPTION] FILE  PASSWORD 
 
 Flags: 
+
 -r - signs directories and their contents recursively 
+
 -v - verbose mode 
