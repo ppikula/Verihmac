@@ -12,19 +12,16 @@ verihmac-sign is simple commandline tool  for signing  executable  files  using 
 Building
 -------
 
-$ cd Verihmac-sign
-
-$ make 
-
-$ make install 
+	$ cd Verihmac-sign
+	$ make 
+	# make install 
 
 Usage
 -------
 
-verihmac-sign [OPTION] FILE  PASSWORD 
+	verihmac-sign [OPTION] FILE  PASSWORD 
 
-Flags: 
+Flags:    
+-r - signs directories and their contents recursively      
+-v - verbose mode    
 
--r - signs directories and their contents recursively 
-
--v - verbose mode 
